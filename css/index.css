@@ -19,6 +19,9 @@ body{
   padding: 16px 30px 16px 0px;
   text-decoration: none;
 }
+.active a {
+    color: lightblue;
+    }
 
 .dropdown {
   float: left;
@@ -65,9 +68,7 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.active a {
-    color: lightblue;
-    }
+
 
 
 
