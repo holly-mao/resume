@@ -14,7 +14,6 @@ body{
 
 .navbar {
   font-family: Helvetica, sans-serif;
-  overflow: hidden;
   background:transparent;
   padding-left: 100px;
   position: fixed; /* Set the navbar to fixed position */
@@ -57,8 +56,6 @@ body{
   min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  position: fixed; /* Set the navbar to fixed position */
-
 }
 
 .dropdown-content a {
