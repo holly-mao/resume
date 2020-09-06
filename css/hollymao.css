@@ -101,7 +101,7 @@ padding: 50px 90px 50px 90px;
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
   .flex-container {
-    width:50%;
+    flex-direction: column;
   }
 }
 
