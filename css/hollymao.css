@@ -89,7 +89,6 @@ padding: 50px 90px 50px 90px;
 .flex-container {
   display: flex;
   /*flowx grow, flex-shrink, flex basis*/
-  flex-wrap:wrap;
 }
 
 .flex-container .box1 {
