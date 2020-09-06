@@ -17,6 +17,8 @@ body{
   overflow: hidden;
   background:transparent;
   padding-left: 100px;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%; /* Full width */
 }
 
 .navbar a {
@@ -50,12 +52,13 @@ body{
 
 .dropdown-content {
   display: none;
-  position: absolute;
   background-color: white;
   opacity: 50%;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  position: fixed; /* Set the navbar to fixed position */
+
 }
 
 .dropdown-content a {
