@@ -98,6 +98,13 @@ padding: 50px 90px 50px 90px;
   text-align: left;
 }
 
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .flex-container {
+    width:100%;
+  }
+}
+
 footer p{
 	text-align: center;
 	font-size: 12px;
