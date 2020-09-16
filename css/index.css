@@ -79,9 +79,11 @@ body{
     color: black;
 }
 
-.logo a{
-  color:white;
-  font-size: 16px;
+.logo {
+  position: fixed; /* Set the navbar to fixed position */
+  padding-left:30px;
+  padding-top: 5px;
+
 }
 
 @media only screen and (max-width:620px){
